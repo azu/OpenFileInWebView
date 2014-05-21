@@ -44,6 +44,7 @@
 		17B5C3A7E215E77DE60D2AA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		17B5C48F76193F66DCCCA590 /* OpenFileInWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenFileInWebView.m; sourceTree = "<group>"; };
 		17B5C75913E3C14EC778E7ED /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		17B5C7DCE829B5DAEC4F0FE7 /* OpenFileInWebView.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = OpenFileInWebView.podspec; sourceTree = "<group>"; };
 		17B5C89DEAD34A77898FE714 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		17B5C8E2FF06DEFE8C3C8BE7 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		17B5C8FD54223C91212BEB3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -131,6 +132,7 @@
 				17B5C2CFBF73205C2231B36D /* OpenFileInWebViewTests */,
 				17B5CFA69331ABD02B917697 /* Classes */,
 				17B5CF4658092BAECB6A042B /* README.md */,
+				17B5C7DCE829B5DAEC4F0FE7 /* OpenFileInWebView.podspec */,
 			);
 			sourceTree = "<group>";
 		};
