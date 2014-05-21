@@ -19,8 +19,6 @@ pod 'OpenFileInWebView'
 // @return viewcontroller to load file.
 // support file type depended on webview.(pdf,doc etc..)
 + (UIViewController *)viewControllerToOpenFile:(NSString *) filePath;
-// open in your osx app
-+ (void)openInSystem:(NSString *) filePath;
 @end
 ```
 

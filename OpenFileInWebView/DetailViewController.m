@@ -7,9 +7,12 @@
 //
 
 #import "DetailViewController.h"
+#import "OpenFileInWebView.h"
 
 @interface DetailViewController ()
 - (void)configureView;
+- (IBAction)handleWebViewButton:(id)sender;
+- (IBAction)handleSystemButton:(id)sender;
 @end
 
 @implementation DetailViewController
@@ -33,6 +36,16 @@
     if (self.detailItem) {
         self.detailDescriptionLabel.text = [self.detailItem description];
     }
+}
+
+- (IBAction)handleWebViewButton:(id)sender {
+    UIViewController *controller = [OpenFileInWebView viewControllerToOpenFile:[[NSBundle mainBundle] pathForResource:@"index" ofType:@"pdf"]];
+    [self.navigationController pushViewController:controller animated:YES];
+
+}
+
+- (IBAction)handleSystemButton:(id)sender {
+    [OpenFileInWebView openInSystem:[[NSBundle mainBundle] pathForResource:@"index" ofType:@"pdf"]];
 }
 
 - (void)viewDidLoad

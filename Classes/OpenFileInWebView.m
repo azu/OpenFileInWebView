@@ -20,10 +20,4 @@
     return viewController;
 }
 
-+ (void)openInSystem:(NSString *) filePath {
-    NSURL *path = [NSURL fileURLWithPath:filePath];
-    system([[NSString stringWithFormat:@"open '%@'", path] cStringUsingEncoding:NSUTF8StringEncoding]);;
-}
-
-
 @end

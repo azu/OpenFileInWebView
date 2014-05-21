@@ -18,6 +18,7 @@
 		17B5C8E91A2FA7E7889D8204 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CE2ABB32DEC613D391A1 /* main.m */; };
 		17B5C9CAE12B90BB613C2605 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C75913E3C14EC778E7ED /* MasterViewController.m */; };
 		17B5CA88080864B4A57EEAFA /* OpenFileInWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CAC704AEC55854E95F72 /* OpenFileInWebViewTests.m */; };
+		17B5CB95D70CA46E4D7D7D33 /* index.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 17B5CC1CA46484E234537C4A /* index.pdf */; };
 		17B5CC51BBA8AD8F44ECEDC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C8F22ABCD8FA8AC8D912 /* InfoPlist.strings */; };
 		17B5CD0CD6468D84E18702B8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C8E2FF06DEFE8C3C8BE7 /* DetailViewController.m */; };
 		17B5CDB56E9BA07C87FB06B9 /* OpenFileInWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C48F76193F66DCCCA590 /* OpenFileInWebView.m */; };
@@ -53,6 +54,7 @@
 		17B5CAC704AEC55854E95F72 /* OpenFileInWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenFileInWebViewTests.m; sourceTree = "<group>"; };
 		17B5CB004AFAF6296BD1443C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		17B5CB34BD4918FC0A31982B /* OpenFileInWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenFileInWebView.h; sourceTree = "<group>"; };
+		17B5CC1CA46484E234537C4A /* index.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = index.pdf; sourceTree = "<group>"; };
 		17B5CCF19631F6EC36505E43 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		17B5CD39F74A3B0D2026B89F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		17B5CD531DA07B06BC24C7A0 /* OpenFileInWebViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "OpenFileInWebViewTests-Info.plist"; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				17B5C8F22ABCD8FA8AC8D912 /* InfoPlist.strings */,
 				17B5CE2ABB32DEC613D391A1 /* main.m */,
 				17B5C0395196AC274F2113D4 /* OpenFileInWebView-Prefix.pch */,
+				17B5CC1CA46484E234537C4A /* index.pdf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				17B5CC51BBA8AD8F44ECEDC3 /* InfoPlist.strings in Resources */,
 				17B5C377CB0FE6F6F2231B84 /* Images.xcassets in Resources */,
 				17B5C604E793D11D765E03F2 /* Main.storyboard in Resources */,
+				17B5CB95D70CA46E4D7D7D33 /* index.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
