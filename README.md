@@ -22,6 +22,11 @@ pod 'OpenFileInWebView'
 @end
 ```
 
+``` objc
+UIViewController *controller = [OpenFileInWebView viewControllerToOpenFile:[[NSBundle mainBundle] pathForResource:@"index" ofType:@"pdf"]];
+[self.navigationController pushViewController:controller animated:YES];
+```
+
 
 ## Contributing
 
